@@ -216,8 +216,13 @@ main {
     
 }
 
+.container-oradores{
+    margin-left:250px;
+
+}
 
 .subtitle {
+    
     margin: auto;
     font-size: 15px;
 }
@@ -225,6 +230,8 @@ main {
 
 .description {
     text-indent: 3px;
+    text-align: center;
+    
     width: 300px ;
     max-height: 300px;
     
@@ -237,9 +244,9 @@ main {
 
 
 .oradores-title-cont {
-    margin: 30px auto;
+    margin: 20px center;
     text-align: center;
-    width: 90%;
+    width: 80%;
 }
 
 .oradores-title-cont h3 {
@@ -308,14 +315,16 @@ main {
 }
 
 .form_container {
-    padding: 20px;
-    margin: 20px auto;
-    font-size: 14px;
+    padding: 10px;
+    margin: 50px;
+    font-size: 15px;
+    
 }
 
 .form_txt{
     color: grey;
     position: center;
+    margin-top: -20px;
 }
 
 .aligned-inputs {
