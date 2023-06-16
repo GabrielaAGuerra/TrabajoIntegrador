@@ -1,4 +1,5 @@
 @media only screen and (max-width: 992px) {
+    
 
     .nav {
         flex-wrap: nowrap;
@@ -39,8 +40,14 @@
 
     .logo_txt {
         display: none;
+        
     }
-
+    .totalPagar{
+        border: 0.1em solid rgb(134, 208, 233);
+        border-radius: 0.3em;
+        background-color:rgb(173, 230, 230);
+        color:rgb(40, 146, 165);
+    }
     footer {
         height: max-content;
     }
@@ -57,18 +64,6 @@
     }
 
 }
-
-@media only screen and (min-width: 768px) {
-
-    .our_fotos_desc_cont {
-        padding-left: 20px;
-    }
-
-}
-
-
-
-
 
 @media only screen and (min-width: 992px) {
     .col-lg-4 {
@@ -291,7 +286,7 @@ main {
     color: white;
     background-color: #353a40;
     padding-top: 40px;
-    width: 700px;
+    width: 750px;
     max-height: 400px;
 }
 
@@ -349,7 +344,7 @@ form button[type='submit'] {
 }
 
 footer {
-    background: #1e516e;
+    background: #08496e;
     display: flex;
     justify-content: center;
 }
@@ -372,4 +367,63 @@ footer {
 .footer_content a {
     color: white;
     text-decoration: none;
+}
+
+/*ticket*/
+.dflex{
+    display: flex;}
+.aflex{
+    display: flex; 
+    justify-content: center; 
+    align-items: baseline;}
+
+.flexC{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;}
+
+.flex{
+    display: flex;
+     align-items: center; 
+     justify-content: center;}
+
+.formContainer{
+    width: 50vw; 
+    gap: 2em;
+}
+.box{display: flex;
+    gap: 2em; 
+    margin: 0 2em 2em 0;
+}
+
+.selectHeight{
+    height: 30px;
+}
+
+.mp-1{
+    margin: 1em; 
+    padding: 1em;}
+.mp-05{
+    margin: 0.5em;
+     padding: 0.5em;
+    }
+.m1{
+    margin: 1em;
+}
+.mt1{
+    margin-top: 1em;
+}
+.p1{
+    padding: 1em;
+}
+.tc{
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .our_fotos_desc_cont {
+        padding-left: 20px;
+    }
+
 }
